@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7ef">
+  <meta name="description" content="TOYVERSE — a little magic in every toy. Discover playful gifts, RC cars, building sets and more.">
+  <title>TOYVERSE — A Little Magic in Every Toy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span>✦</span> A little wonder, delivered to your door <span class="announcement-link">Explore the universe <span aria-hidden="true">↗</span></span></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="TOYVERSE home"><span class="brand-mark">✳</span><span data-brand>TOYVERSE</span><span class="brand-dot">.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop">Shop all</a><a href="#categories">Categories</a><a href="#new">New arrivals</a><a href="#story">Our story</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-toggle" aria-label="Focus search" id="searchFocus">⌕</button>
+      <button class="icon-btn wishlist-shortcut" id="wishlistJump" aria-label="View wishlist">♡<span id="wishCount" class="tiny-count">0</span></button>
+      <button class="cart-trigger" id="openCart" aria-label="Open shopping cart"><span class="bag-icon">▱</span><span class="cart-label">Bag</span><span class="cart-count" id="cartCount">0</span></button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+  <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+    <a href="#shop">Shop all</a><a href="#categories">Categories</a><a href="#new">New arrivals</a><a href="#story">Our story</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div><div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-star">✦</span> THE ART OF PLAY</div>
+        <h1>A little magic<br>in <em>every toy.</em></h1>
+        <p>Discover toys that spark big imaginations, tiny adventures, and memories that last long after playtime.</p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#shop">Explore toys <span>↗</span></a><a class="text-link" href="#bestsellers">Shop bestsellers <span>→</span></a></div>
+        <div class="hero-note"><div class="avatar-stack"><span>☺</span><span>✿</span><span>✦</span></div><div><strong>Made for little wonderers</strong><small>Thoughtful picks for every kind of play</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Playful toy collage">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-spark spark-one">✦</div><div class="hero-spark spark-two">✧</div><div class="hero-spark spark-three">✳</div>
+        <div class="hero-pill pill-left">PLAY MORE <span>↗</span></div><div class="hero-pill pill-right">DREAM BIG ✦</div>
+        <div class="hero-product hero-car"><img src="https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=700&q=85" alt="Colorful toy car"></div>
+        <div class="hero-product hero-teddy"><img src="https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=600&q=85" alt="Soft teddy bear"></div>
+        <div class="hero-product hero-blocks"><img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=600&q=85" alt="Colorful building blocks"></div>
+        <div class="hero-sticker">JOY<br>INSIDE<span>♥</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 / A WORLD OF WONDER</span><span class="scroll-cue">SCROLL TO EXPLORE ↓</span><span>CURATED WITH CARE ✳</span></div>
+    </section>
+
+    <section class="trust-strip"><div><span>✳</span> Little details, big joy</div><div><span>✳</span> Playfully curated</div><div><span>✳</span> Gifts with a little extra magic</div><div><span>✳</span> Made for curious minds</div></section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading reveal"><div><div class="eyebrow">FIND YOUR KIND OF FUN</div><h2>Pick a <em>play path.</em></h2></div><a class="text-link" href="#shop">Explore all categories <span>→</span></a></div>
+      <div class="category-grid">
+        <a class="category-card cat-pink reveal" href="#shop" data-category-link="RC Cars"><div class="category-visual"><img src="https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=650&q=80" alt="Toy car"></div><div class="category-meta"><div><span class="category-kicker">ZOOM & VROOM</span><h3>RC & racers</h3></div><span class="round-arrow">↗</span></div></a>
+        <a class="category-card cat-blue reveal" href="#shop" data-category-link="Building Blocks"><div class="category-visual"><img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=650&q=80" alt="Building blocks"></div><div class="category-meta"><div><span class="category-kicker">BUILD A BIG IDEA</span><h3>Little builders</h3></div><span class="round-arrow">↗</span></div></a>
+        <a class="category-card cat-yellow reveal" href="#shop" data-category-link="Plush Toys"><div class="category-visual"><img src="https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=650&q=80" alt="Teddy bear"></div><div class="category-meta"><div><span class="category-kicker">SOFT SPOT</span><h3>Cuddle club</h3></div><span class="round-arrow">↗</span></div></a>
+        <a class="category-card cat-lilac reveal" href="#shop" data-category-link="Educational"><div class="category-visual"><img src="https://images.unsplash.com/photo-1560961911-ba7ef651a56c?auto=format&fit=crop&w=650&q=80" alt="Creative toy"></div><div class="category-meta"><div><span class="category-kicker">CURIOUS BY NATURE</span><h3>Brainy play</h3></div><span class="round-arrow">↗</span></div></a>
+      </div>
+    </section>
+
+    <section class="section products-section" id="bestsellers">
+      <div class="section-heading reveal"><div><div class="eyebrow">THE CROWD-PLEASERS</div><h2>Little legends.</h2><p class="section-intro">The toys everyone keeps coming back to. Big smiles, zero boring bits.</p></div><span class="sample-label">DEMO CATALOGUE</span></div>
+      <div class="shop-toolbar" id="shop">
+        <div class="filter-pills" id="filterPills"><button class="filter-pill active" data-filter="All">All toys <span>08</span></button><button class="filter-pill" data-filter="RC Cars">RC cars</button><button class="filter-pill" data-filter="Building Blocks">Building blocks</button><button class="filter-pill" data-filter="Educational">Educational</button><button class="filter-pill" data-filter="Plush Toys">Plush</button><button class="filter-pill" data-filter="Robots">Robots</button><button class="filter-pill" data-filter="Toy Airplanes">Airplanes</button><button class="filter-pill" data-filter="RC Helicopters">Helicopters</button><button class="filter-pill" data-filter="Action Figures">Action figures</button></div>
+        <div class="shop-tools"><label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Find your fun..." aria-label="Search products"></label><select id="sortSelect" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name: A–Z</option></select></div>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="empty-results hidden" id="emptyResults"><span>✧</span><h3>No toys found just yet</h3><p>Try another search or choose a different play path.</p><button class="btn btn-dark" id="resetFilters">Show all toys</button></div>
+      <div class="center-cta"><span>MORE PLAY, LESS SCROLL?</span><a class="text-link" href="#new">Meet the new arrivals <span>→</span></a></div>
+    </section>
+
+    <section class="feature-banner" id="rc-feature">
+      <div class="feature-copy reveal"><div class="eyebrow light-eyebrow">READY, SET, ZOOM</div><h2>Small car.<br><em>Huge energy.</em></h2><p>For the little speedster who thinks every hallway is a race track.</p><a class="btn btn-light" href="#shop" data-category-link="RC Cars">Explore RC cars <span>↗</span></a><div class="feature-footnote">* Sample product collection · prices in PKR</div></div>
+      <div class="feature-art"><div class="feature-sun"></div><div class="feature-star">✳</div><img src="https://images.unsplash.com/photo-1594787318286-3d835c1d207f?auto=format&fit=crop&w=1000&q=90" alt="Remote control toy car" loading="lazy"><div class="speed-lines"></div><div class="feature-caption">BUILT FOR<br>BIG ADVENTURES</div></div>
+    </section>
+
+    <section class="section new-section" id="new">
+      <div class="section-heading reveal"><div><div class="eyebrow">JUST LANDED IN OUR UNIVERSE</div><h2>Fresh off the <em>toy planet.</em></h2></div><span class="new-tag">NEW ✦ NEW ✦ NEW</span></div>
+      <div class="new-arrival-card reveal"><div class="new-arrival-image"><img src="https://images.unsplash.com/photo-1560961911-ba7ef651a56c?auto=format&fit=crop&w=1000&q=85" alt="Creative colorful toys" loading="lazy"><span class="image-note">A NEW KIND OF PLAY</span></div><div class="new-arrival-copy"><span class="eyebrow">FOR LITTLE BIG THINKERS</span><h3>Curiosity looks<br>good on you.</h3><p>Open-ended playthings for building, tinkering, inventing and wondering “what if?”</p><a class="text-link" href="#shop" data-category-link="Educational">Shop brainy play <span>→</span></a><div class="scribble-star">✳</div></div></div>
+    </section>
+
+    <section class="learning-section">
+      <div class="learning-image reveal"><img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1100&q=85" alt="Colorful construction toys" loading="lazy"><span class="floating-bubble">THINK<br>· MAKE<br>· PLAY</span></div>
+      <div class="learning-copy reveal"><div class="eyebrow">PLAY THAT GOES PLACES</div><h2>Big ideas start<br>with <em>little hands.</em></h2><p>From first-time builders to future inventors, our pretend play and learning picks make room for every “I did it!” moment.</p><ul class="benefit-list"><li><span>01</span><div><strong>Curiosity comes first</strong><small>Inviting toys that turn questions into adventures.</small></div></li><li><span>02</span><div><strong>Room to make it yours</strong><small>Open-ended fun, with no one right way to play.</small></div></li><li><span>03</span><div><strong>Little wins, every day</strong><small>Playful moments that grow confidence.</small></div></li></ul><a class="btn btn-dark" href="#shop" data-category-link="Educational">Find their next favourite <span>↗</span></a></div>
+    </section>
+
+    <section class="offer-band"><div class="offer-decoration">✳</div><div><span class="eyebrow">A LITTLE SOMETHING EXTRA</span><h2>Good things come in <em>toy-sized packages.</em></h2><p>Find a new favourite and make an ordinary day feel like a celebration.</p></div><a class="btn btn-dark" href="#shop">Find a little magic <span>↗</span></a></section>
+
+    <section class="section why-section" id="story"><div class="section-heading reveal"><div><div class="eyebrow">THE TOYVERSE PROMISE</div><h2>Play is serious <em>joy.</em></h2></div><p class="section-intro">We believe the best toys do more than fill a shelf. They open up whole new worlds.</p></div>
+      <div class="promise-grid"><article class="promise-card reveal"><div class="promise-icon icon-peach">✿</div><span>01 / THE GOOD STUFF</span><h3>Thoughtfully picked</h3><p>Every toy in our demo collection is chosen to inspire a different kind of play.</p></article><article class="promise-card reveal"><div class="promise-icon icon-blue">↗</div><span>02 / ROOM TO GROW</span><h3>Curiosity encouraged</h3><p>From speedy racers to clever builders, there's a new idea around every corner.</p></article><article class="promise-card reveal"><div class="promise-icon icon-yellow">♡</div><span>03 / GIFT-WORTHY</span><h3>Joy, wrapped up</h3><p>For birthdays, little wins, big milestones, or a just-because kind of day.</p></article></div>
+    </section>
+
+    <section class="section testimonial-section"><div class="testimonial-top"><div class="eyebrow">KIND WORDS, BIG SMILES</div><span class="sample-label">SAMPLE TESTIMONIALS</span></div><div class="testimonial-content"><div class="quote-mark">“</div><blockquote>Playtime is where the best stories begin. We're here for every single one.</blockquote><div class="quote-footer"><span class="quote-stars">★★★★★</span><span>Illustrative brand quote — replace with verified customer feedback</span></div></div><div class="testimonial-orbit">✳</div></section>
+
+    <section class="newsletter-section"><div class="newsletter-doodle">✦</div><div class="newsletter-copy"><div class="eyebrow">POSTCARDS FROM TOYVERSE</div><h2>A little wonder<br>in your <em>inbox.</em></h2><p>New arrivals, playful ideas and tiny surprises. No spam, just the good stuff.</p></div><form class="newsletter-form" id="newsletterForm"><label for="newsletterEmail">YOUR EMAIL ADDRESS</label><div class="email-input-wrap"><input id="newsletterEmail" type="email" placeholder="you@example.com" required><button type="submit" aria-label="Subscribe">↗</button></div><small id="newsletterMessage">Demo signup only — no email is stored or sent.</small></form></section>
+
+    <section class="section faq-section" id="faq"><div class="faq-heading"><div class="eyebrow">A FEW LITTLE ANSWERS</div><h2>Curious? <em>Good.</em></h2><p>Here are a few things people often wonder about.</p></div><div class="faq-list"><details><summary>Are these real products and prices? <span>+</span></summary><p>This is a client-ready demo catalogue. Product details, PKR prices, ratings, stock and discounts are fictional examples and must be verified by the store owner before launch.</p></details><details><summary>Can I place an order on this website? <span>+</span></summary><p>You can add products to the demo cart and prepare a WhatsApp inquiry once a store phone number is configured. Checkout, payment processing and order storage are not connected.</p></details><details><summary>How do I ask about a specific toy? <span>+</span></summary><p>Use the quick-view or cart controls to review a toy. Configure your WhatsApp number in app.js to enable order inquiries with selected product details.</p></details><details><summary>Can I change the branding? <span>+</span></summary><p>Yes. Edit the STORE settings at the top of app.js to change the brand name, WhatsApp number, currency display and contact details.</p></details></div></section>
+
+    <section class="contact-strip" id="contact"><div><div class="eyebrow">LET'S TALK TOYS</div><h2>Need a hand finding <em>the one?</em></h2></div><a class="btn btn-dark" href="mailto:hello@example.com" id="contactEmailLink">Say hello <span>↗</span></a></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-main"><div class="footer-brand-col"><a class="brand footer-brand" href="#top"><span class="brand-mark">✳</span><span data-brand>TOYVERSE</span><span class="brand-dot">.</span></a><p>A little universe for big imaginations.<br>Made for the magic of play.</p><div class="social-links"><a href="#top" aria-label="Instagram">ig</a><a href="#top" aria-label="TikTok">tk</a><a href="#top" aria-label="Pinterest">p</a></div></div><div class="footer-col"><strong>THE UNIVERSE</strong><a href="#shop">Shop all toys</a><a href="#categories">Categories</a><a href="#new">New arrivals</a><a href="#bestsellers">Bestsellers</a></div><div class="footer-col"><strong>GOOD TO KNOW</strong><a href="#story">Our story</a><a href="#faq">FAQs</a><a href="#contact">Contact</a><a href="#top">Shipping & returns*</a></div><div class="footer-note"><span class="footer-sun">✳</span><h3>Keep wonder<br>within reach.</h3><p>* Demo links — add your real store policies before launch.</p></div></div><div class="footer-bottom"><span>© <span id="year"></span> <span data-brand>TOYVERSE</span>. Made for make-believe.</span><span>DEMO STORE · NOT A LIVE CHECKOUT</span><a href="#top">Back to top ↑</a></div></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true"><div class="drawer-head"><div><span class="eyebrow">YOUR LITTLE TREASURES</span><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="close-btn" id="closeCart" aria-label="Close cart">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><div class="empty-toy">✳</div><h3>Your bag is taking a nap.</h3><p>Add a little wonder to wake it up.</p><button class="btn btn-dark" id="continueShopping">Explore toys</button></div><div class="cart-footer" id="cartFooter"><div class="subtotal-row"><span>Subtotal</span><strong id="cartSubtotal">Rs 0</strong></div><p>Shipping and taxes are calculated by the real store at checkout.</p><button class="btn btn-dark checkout-btn" id="whatsappCheckout">Ask about these toys on WhatsApp <span>↗</span></button><small class="demo-disclaimer">Demo only. No payment or order is processed.</small></div></aside>
+  <div class="modal-wrap" id="quickViewWrap" role="dialog" aria-modal="true" aria-label="Product quick view"><div class="quick-view" id="quickView"></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
